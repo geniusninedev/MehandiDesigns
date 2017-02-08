@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_mehandii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mehandibackkk"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dev.mehandidesigns.Mehandi.Mehandii"
+    tools:showIn="@layout/app_bar_mehandii">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/mehandibackkk">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="514dp"
+                >
+
+                <Button
+                    android:text="Traditional"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    style="@style/color"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button8"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/button4"
+                    android:layout_alignEnd="@+id/button4"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="150dp" />
+
+                <Button
+                    android:text="Arabic "
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    style="@style/color"
+                    android:layout_width="150dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button10"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:text="Dulhan "
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"
+                    style="@style/color"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button11"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_marginTop="36dp"
+                    android:layout_below="@+id/button10"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="53dp"
+                    android:layout_marginEnd="53dp"
+                    android:layout_width="150dp" />
+
+                <Button
+                    android:text="Leg Mehandi"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    style="@style/color"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_marginBottom="47dp"
+                    android:layout_width="150dp"
+                    android:layout_above="@+id/button5"
+                    android:layout_alignLeft="@+id/button11"
+                    android:layout_alignStart="@+id/button11" />
+
+                <Button
+                    android:text="Hand Mehandi"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    style="@style/color"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button5"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_marginBottom="43dp"
+                    android:layout_width="150dp"
+                    android:layout_above="@+id/button8"
+                    android:layout_alignLeft="@+id/button9"
+                    android:layout_alignStart="@+id/button9" />
+
+                <Button
+                    android:text="Floral "
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    style="@style/color"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button9"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:scaleX="0.8"
+                    android:layout_marginBottom="27dp"
+                    android:layout_width="150dp"
+                    android:layout_above="@+id/button4"
+                    android:layout_alignLeft="@+id/button10"
+                    android:layout_alignStart="@+id/button10" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

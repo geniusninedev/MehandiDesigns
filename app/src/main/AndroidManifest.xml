@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dev.mehandidesigns">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/front9"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Mehandi.Mehandii"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Arabic.arabic"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Arabic Mehandi"/>
+        <activity android:name=".Dulhan.dulhan"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Dulhan Mehandi"/>
+        <activity android:name=".Floral.floral"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Floral Mehandi"/>
+        <activity android:name=".Traditional.tradi"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Traditional"/>
+        <activity android:name=".Leg.leg"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Leg Mehandi"/>
+        <activity android:name=".Hand.hand"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Hand Mehandi"/>
+
+        <activity android:name=".LearnMehandi.LearnMehandi"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Learn Mehandi"/>
+        <activity android:name=".Finger.FingerMehandi"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Finger Mehandi Designs"></activity>
+    </application>
+
+</manifest>
